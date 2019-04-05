@@ -3,12 +3,7 @@ module.exports = {
     browser: true,
     es6: true
   },
-  extends: [
-    'standard',
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:flowtype/recommended'
-  ],
+  extends: ['standard', 'plugin:react/recommended', 'plugin:flowtype/recommended'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
@@ -68,14 +63,6 @@ module.exports = {
     'flowtype/no-types-missing-file-annotation': 2,
     'flowtype/no-weak-types': 2,
     'flowtype/object-type-delimiter': [2, 'comma'],
-    'flowtype/require-parameter-type': 2,
-    'flowtype/require-return-type': [
-      2,
-      'always',
-      {
-        annotateUndefined: 'never'
-      }
-    ],
     'flowtype/require-valid-file-annotation': 2,
     'flowtype/semi': [2, 'always'],
     'flowtype/space-after-type-colon': [2, 'always'],
@@ -84,6 +71,21 @@ module.exports = {
     'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]+)+Type$'],
     'flowtype/union-intersection-spacing': [2, 'always'],
     'flowtype/use-flow-type': 1,
-    'flowtype/valid-syntax': 1
+    'flowtype/valid-syntax': 1,
+    // https://github.com/benmosher/eslint-plugin-import
+    'import/prefer-default-export': 'warn',
+    'import/no-webpack-loader-syntax': 'warn',
+    'import/no-unresolved': 'error',
+    'import/export': 'warn',
+    'import/first': 'warn',
+    'import/newline-after-import': 'warn',
+    'import/no-named-default': 'off',
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['to']
+      }
+    ]
   }
 }
