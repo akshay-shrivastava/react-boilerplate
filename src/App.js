@@ -4,7 +4,7 @@ import Footer from './Footer'
 import ErrorBoundary from './ErrorBoundries'
 import { default as getRoute } from './routes'
 
-import './App.css'
+import './App.scss'
 
 class App extends Component {
   render() {
