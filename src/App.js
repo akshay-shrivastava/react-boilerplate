@@ -10,14 +10,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        <ErrorBoundary>
-          <Header />
-        </ErrorBoundary>
-          {(() => getRoute())()}
-          <Footer />
+        <Header />
+        <ErrorBoundary>{(() => getRoute())()}</ErrorBoundary>
+        <Footer />
       </div>
     )
   }
 }
 
-export default App;
+export default App
