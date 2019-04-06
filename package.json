@@ -25,7 +25,8 @@
     "dry-release": "standard-version -- --dry-run",
     "pretty-staged": "yarn pretty-quick-staged && yarn lint-staged",
     "pretty-quick-staged": "pretty-quick --staged",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "heroku-postbuild": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
