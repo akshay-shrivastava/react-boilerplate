@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/polyfill": "^7.4.3",
     "connected-react-router": "^6.3.2",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",

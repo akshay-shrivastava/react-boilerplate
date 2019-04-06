@@ -75,7 +75,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import
     'import/prefer-default-export': 'warn',
     'import/no-webpack-loader-syntax': 'warn',
-    'import/no-unresolved': 'error',
+    // 'import/no-unresolved': 'error',
     'import/export': 'warn',
     'import/first': 'warn',
     'import/newline-after-import': 'warn',
