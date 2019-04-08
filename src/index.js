@@ -1,13 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import '@babel/polyfill'
-import './index.scss'
+import './initialize'
 import App from './App'
 import { Route } from 'react-router-dom'
 import { ConnectedRouter } from 'connected-react-router'
 import * as serviceWorker from './serviceWorker'
 import { Provider } from 'react-redux'
 import configureStore, { history } from './store'
+
+import './index.scss'
 
 const store = configureStore()
 ReactDOM.render(

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@babel/polyfill": "^7.4.3",
+    "axios": "^0.18.0",
     "connected-react-router": "^6.3.2",
     "eslint": "^5.16.0",
     "node-sass": "^4.11.0",
