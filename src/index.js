@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'babel-polyfill'
+import '@babel/polyfill'
 import './index.scss'
 import App from './App'
 import { Route } from 'react-router-dom'
