@@ -1,10 +1,16 @@
 # Query Generator Component
 
+Note: This code is taken from [react-querybuilder](https://github.com/sapientglobalmarkets/react-querybuilder).
+
 - This component can be use to generate **`complex query ui`**.
 - This component has two main component `Rules` and `Groups`. Rule is the basic entity and A Group is the collection of rules.
 - A Rule includes 3 things: `Field, Operator and Value`.
 - A `Group` include `multiple Rules` with the Group Label.
 - Some of the operations like _`Enable, Disable, Minimizing, Maximizing and Delete`_ can be done at any level(`Rule & Group`).
+
+Sample UI
+
+![Query Generator](../src/assets/image/qb.png)
 
 Eample of using Query Generator Tree
 
