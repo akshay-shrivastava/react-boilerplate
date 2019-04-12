@@ -1,0 +1,79 @@
+.script-import-label {
+  margin-top: 9px;
+  margin-bottom: 6px;
+}
+
+.script-import-label label.control-label.upload-label {
+  cursor: pointer;
+  text-decoration: underline;
+  color: 000000;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.expand-wrapper {
+  position: relative;
+}
+
+.expand-wrapper .expand-toggle {
+  text-align: center;
+  width: 100%;
+  line-height: 36px;
+}
+
+.expand-wrapper .top-action-bar .action-button,
+.expand-wrapper .expand-toggle .toggle-button {
+  cursor: pointer;
+  visibility: hidden;
+  display: inline-block;
+  padding: 3px 6px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  width: auto;
+  margin: auto;
+  color: white;
+  background: #a9a9a9;
+  line-height: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.expand-wrapper .top-action-bar {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.expand-wrapper .top-action-bar .action-button {
+  float: right;
+  margin-right: 6px;
+}
+
+.expand-wrapper:hover .top-action-bar .action-button,
+.expand-wrapper:hover .expand-toggle .toggle-button {
+  visibility: visible;
+}
+
+.expand-wrapper.collapsed .expand-toggle {
+  position: absolute;
+  bottom: 0px;
+  background: linear-gradient(180deg, hsla(0, 0%, 100%, 0), white);
+}
+
+.collapsed > .update-script.cm-sql-query-sf-input .CodeMirror {
+  height: 200px;
+}
+
+.expanded > .update-script.cm-sql-query-sf-input .CodeMirror {
+  min-height: 150px;
+  height: auto;
+}
+
+.collapsed > .update-script.cm-sql-query-sf-input .CodeMirror-scroll {
+  height: 200px;
+}
+
+.expanded > .update-script.cm-sql-query-sf-input .CodeMirror-scroll {
+  min-height: 200px;
+  max-height: 700px;
+}

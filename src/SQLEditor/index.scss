@@ -1,0 +1,100 @@
+.cm-sql-query-sf-input .CodeMirror {
+  height: 200px;
+  z-index: 0;
+  position: relative;
+  border: 1px solid rgba(black, 0.3);
+}
+
+/**
+ * Codemirror code editor theme
+ */
+.cm-sql-query-sf-input .cm-keyword {
+  color: #1eb6db;
+} /*blue*/
+.cm-sql-query-sf-input .cm-atom {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-number {
+  color: #c902e3;
+} /*purple*/
+.cm-sql-query-sf-input .cm-def {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-variable {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-variable-2 {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-variable-3 {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-property {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-operator {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-comment {
+  color: #ff0600;
+} /*red*/
+.cm-sql-query-sf-input .cm-string {
+  color: #c902e3;
+} /*purple*/
+.cm-sql-query-sf-input .cm-string-2 {
+  color: #c902e3;
+} /*purple*/
+.cm-sql-query-sf-input .cm-meta {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-qualifier {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-builtin {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-bracket {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-tag {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-attribute {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-header {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-quote {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-hr {
+  color: black;
+}
+.cm-sql-query-sf-input .cm-link {
+  color: black;
+}
+
+.cm-sql-query-sf-input .CodeMirror-code > div {
+  line-height: 16px;
+}
+
+.cm-sql-query-sf-input .CodeMirror-gutters {
+  background-color: #f2f9fa;
+  border-width: 0 1px 0 0;
+  border-style: solid;
+  border-color: rgba(black, 0.3);
+  min-height: 100%;
+}
+
+.cm-sql-query-sf-input .CodeMirror-linenumbers {
+  width: 48px;
+}
+.cm-sql-query-sf-input .CodeMirror-linenumber {
+  padding-right: 8px;
+  font-size: 11px;
+}
+
+.cm-sql-query-sf-input .CodeMirror-placeholder {
+  color: #aaaaaa;
+}
